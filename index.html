@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ephraim's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Whoami</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Offensive Security Engineer</p>
+                <h1>Hi, I am <span>Ephraim</span> <br>Norbert from Nigeria</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------- About ---------------------------->
+    <div id="Whoami">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Whoami</h1>
+                    <p>The Lorem ipum filling text is used by graphic designers, programmers and printers with the aim
+                        of occupying the spaces of a website, an advertising product or an editorial production whose
+                        final text is not yet ready.
+                        This expedient serves to get an idea of the finished product that will soon be printed or
+                        disseminated via digital channels.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Offensive</span><br> Engineer</li>
+                            <li><span>Offensive</span><br>Security Engineer</li>
+                            <li><span>Offensive</span><br>Security Engineer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Offensive</span><br> Engineer</li>
+                            <li><span>Offensive</span><br>Security Engineer</li>
+                            <li><span>Offensive</span><br>Security Engineer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Offensive</span><br> Engineer</li>
+                            <li><span>Offensive</span><br>Security Engineer</li>
+                            <li><span>Offensive</span><br>Security Engineer</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------- Services -------------------------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p>The Lorem ipum filling text is used by graphic designers, programmers and printers with the aim
+                        of occupying the spaces of a website, an advertising product or an editorial production whose
+                        final text is not yet ready.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>Web Design</h2>
+                    <p>The Lorem ipum filling text is used by graphic designers, programmers and printers with the aim
+                        of occupying the spaces of a website, an advertising product or an editorial production whose
+                        final text is not yet ready.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>Web Design</h2>
+                    <p>The Lorem ipum filling text is used by graphic designers, programmers and printers with the aim
+                        of occupying the spaces of a website, an advertising product or an editorial production whose
+                        final text is not yet ready.</p>
+                        <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------------------------ Portfolio ------------------------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="" alt="">
+                </div>
+                <div class="work">
+                    <img src="" alt="">
+                </div>
+                <div class="work">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+</body>
+
+</html>
