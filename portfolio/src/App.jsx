@@ -1049,10 +1049,10 @@ export default function Portfolio() {
               I'm always open to discussing new opportunities, collaborations, or interesting projects.
             </p>
             <div className="contact-buttons">
-              <a href="mailto:your.email@example.com" className="btn-primary">
+              <a href="mailto:norbert.ephraim0@gmail.com" className="btn-primary">
                 Send Email
               </a>
-              <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="btn-secondary">
+              <a href="https://www.linkedin.com/in/ephraim-norbert-33777920b/" target="_blank" rel="noopener noreferrer" className="btn-secondary">
                 Connect on LinkedIn
               </a>
             </div>
