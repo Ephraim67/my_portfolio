@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Github, Linkedin, Mail, ExternalLink, Code, Shield, FileText, Briefcase, ChevronDown, Menu, X, Calendar, MapPin } from 'lucide-react';
+import { Github, Linkedin, Mail, ExternalLink, Code, Shield, FileText, Briefcase, ChevronDown, Menu, X, Calendar, MapPin, Twitter } from 'lucide-react';
 
 export default function Portfolio() {
   const [activeSection, setActiveSection] = useState('home');
@@ -860,7 +860,7 @@ export default function Portfolio() {
               <div className="hero-subtitle">
                 <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem', marginTop: '1.5rem' }}>
                   <span className="hero-badge">Backend Developer</span>
-                  <span className="hero-badge">Cybersecurity Specialist</span>
+                  <span className="hero-badge">API Security</span>
                   <span className="hero-badge">B2B & Compliance</span>
                   <span className="hero-badge">Technical Writer</span>
                 </div>
@@ -868,13 +868,19 @@ export default function Portfolio() {
             </div>
 
             <div className="social-links">
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="social-link">
+              <a href="https://github.com/Ephraim67" target="_blank" rel="noopener noreferrer" className="social-link">
                 <Github size={24} style={{ color: '#374151' }} />
               </a>
-              <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="social-link">
+              <a href="https://www.linkedin.com/in/ephraim-norbert-33777920b/" target="_blank" rel="noopener noreferrer" className="social-link">
                 <Linkedin size={24} style={{ color: '#374151' }} />
               </a>
-              <a href="mailto:your.email@example.com" className="social-link">
+              <a href="https://x.com/ephraim_norbert" target="_blank" rel="noopener noreferrer" className="social-link">
+                <Twitter size={24} style={{ color: '#374151' }} />
+              </a>
+              {/* <a href="https://www.threads.com/@defi_boss" target="_blank" rel="noopener noreferrer" className="social-link">
+                <Thread size={24} style={{ color: '#374151' }} />
+              </a> */}
+              <a href="mailto:norbert.ephraim0@gmail.com" className="social-link">
                 <Mail size={24} style={{ color: '#374151' }} />
               </a>
             </div>
