@@ -10,8 +10,8 @@ export default function Portfolio() {
     {
       company: "usepuplar",
       role: "Operations Officer",
-      period: "2023 - Present",
-      location: "Remote",
+      period: "2025 - Present",
+      location: "Hybrid",
       responsibilities: [
         "Leading backend development initiatives for enterprise-scale applications handling 10M+ daily requests",
         "Implementing comprehensive security protocols and conducting regular penetration testing audits",
@@ -28,9 +28,9 @@ export default function Portfolio() {
     },
     {
       company: "BondedThruCancer",
-      role: "Senior Backend Developer",
-      period: "2021 - 2023",
-      location: "Hybrid",
+      role: "Backend Developer",
+      period: "2025 - 2026",
+      location: "Remote",
       responsibilities: [
         "Developed RESTful APIs serving 5M+ daily users with 99.9% uptime",
         "Implemented microservices architecture reducing deployment time by 60%",
@@ -46,7 +46,7 @@ export default function Portfolio() {
     {
       company: "Primforte Technology Limited",
       role: "Full Stack Developer",
-      period: "2019 - 2021",
+      period: "2025 - 2026",
       location: "On-site",
       responsibilities: [
         "Built customer-facing web applications using React and Node.js",
