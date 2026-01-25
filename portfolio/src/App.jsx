@@ -11,7 +11,7 @@ export default function Portfolio() {
       company: "usepuplar",
       role: "Operations Officer",
       period: "2025 - Present",
-      location: "Hybrid",
+      location: "Full Time",
       responsibilities: [
         "Leading backend development initiatives for enterprise-scale applications handling 10M+ daily requests",
         "Implementing comprehensive security protocols and conducting regular penetration testing audits",
@@ -28,7 +28,7 @@ export default function Portfolio() {
     },
     {
       company: "BondedThruCancer",
-      role: "Backend Developer",
+      role: "Backend Engineer",
       period: "2025 - 2026",
       location: "Remote",
       responsibilities: [
@@ -45,11 +45,11 @@ export default function Portfolio() {
     },
     {
       company: "Primforte Technology Limited",
-      role: "Full Stack Developer",
+      role: "Backend Developer and Project Manager",
       period: "2025 - 2026",
       location: "On-site",
       responsibilities: [
-        "Built customer-facing web applications using React and Node.js",
+        "Built customer-facing web applications using Node.js",
         "Developed internal tools for compliance and reporting automation",
         "Implemented OAuth2 authentication and role-based access control",
         "Created comprehensive API documentation for external partners"
@@ -64,9 +64,9 @@ export default function Portfolio() {
 
   const blogPosts = [
     {
-      title: "Building Scalable Microservices with Node.js",
-      excerpt: "A deep dive into architecting microservices that can handle millions of requests with optimal performance.",
-      url: "https://medium.com/@yourusername/building-scalable-microservices",
+      title: "Walkthrough Information Disclosure in Version Control System, Portswigger",
+      excerpt: "Information disclosure via a control version system occurs when sensitive files from systems like Git, Subversion, or Mercurial are accidentally exposed on a public web server, thereby making the source code, credentials, internal logic, or security flaws vulnerable and exploitable to attackers.",
+      url: "https://ephraim67.medium.com/walkthrough-information-disclosure-in-version-control-system-portswigger-4b44fc3139eb",
       platform: "Medium",
       date: "Dec 2025"
     },
@@ -78,18 +78,18 @@ export default function Portfolio() {
       date: "Jan 2026"
     },
     {
-      title: "Automating Compliance Workflows in B2B",
-      excerpt: "How we reduced manual compliance processing by 70% using automation and smart workflows.",
-      url: "https://yourblog.com/compliance-automation",
-      platform: "Personal Blog",
+      title: "How Generative AI is Revolutionizing IT Development: A Game-Changer for Developers",
+      excerpt: "Generative artificial intelligence (AI) refers to algorithms, such as ChatGPT, that can create diverse content, including audio, code, images, text, simulations, and videos. This research exploration and investigation discusses the transformative impact of recent breakthroughs in generative AI, highlighting the potential to revolutionize content creation across various domains.",
+      url: "https://medium.com/@ephraim67/how-generative-ai-is-revolutionizing-it-development-a-game-changer-for-developers-90082b2bfa1a",
+      platform: "Medium",
       date: "Nov 2025"
     },
     {
-      title: "From Penetration Testing to Production Security",
-      excerpt: "Lessons learned from conducting security audits and implementing defensive measures.",
-      url: "https://hashnode.com/@yourusername/penetration-testing",
-      platform: "Hashnode",
-      date: "Oct 2025"
+      title: "Setting Up an Ethical Hacking Lab",
+      excerpt: "Ethical hacking uses hacking techniques to identify and fix vulnerabilities in computer systems, networks, or applications before attackers exploit them. It involves using hacking tools and custom scripts for exploitation and persistent access.",
+      url: "https://ephraim67.medium.com/setting-up-an-ethical-hacking-lab-e76287afa4ce",
+      platform: "Medium",
+      date: "April 2025"
     }
   ];
 
@@ -175,7 +175,7 @@ export default function Portfolio() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Operations Officer - Backend Developer & Cybersecurity Specialist" />
         <meta name="twitter:description" content="Expert in backend development, cybersecurity, B2B compliance, and technical documentation." />
-        <title>Operations Officer - Backend Developer | Cybersecurity Specialist | usepuplar</title>
+        <title>Operations Officer - Backend Developer | Cybersecurity Specialist | usepuplar | Primforte</title>
       </head>
       <style>{`
         @keyframes fadeIn {
@@ -1044,7 +1044,7 @@ export default function Portfolio() {
         {/* Contact Section */}
         <section id="contact" className="section section-min-height">
           <div className="section-content contact-content">
-            <h2 className="section-title">Let's Connect</h2>
+            <h2 className="section-title">Hire Me!</h2>
             <p className="contact-description">
               I'm always open to discussing new opportunities, collaborations, or interesting projects.
             </p>
@@ -1062,7 +1062,7 @@ export default function Portfolio() {
         {/* Footer */}
         <footer className="footer">
           <div className="footer-content">
-            <p>&copy; 2026 Operations Officer Portfolio. All rights reserved.</p>
+            <p>&copy; 2026 Ephraim Portfolio. All rights reserved.</p>
           </div>
         </footer>
       </div>
